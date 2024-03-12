@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        /* Add your CSS styles here if needed */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, section, footer {
+            padding: 20px;
+            background-color: #f0f0f0;
+            margin-bottom: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .grid-item {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to our Image Links Page!</h1>
+        <p>Explore the world through images related to technology, nature, and food.</p>
+    </header>
+
+    <nav>
+        <h2>Navigation</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#menu">Menu</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to our Home section! Check out this cool technology image:</p>
+        <a href="https://unsplash.com/s/photos/technology"><img src="uriel-soberanes-MxVkWPiJALs-unsplash.jpg" alt="Technology Image"></a>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>Here are some beautiful images related to nature:</p>
+        <div class="grid">
+            <div class="grid-item"><a href="https://pixabay.com/images/search/nature/"><img src="road-1072823_1280.jpg" alt="Nature Image 1"></a></div>
+            <div class="grid-item"><a href="https://unsplash.com/images/nature"><img src="ray-hennessy-jN5pk0lbv4E-unsplash.jpg" alt="Nature Image 2"></a></div>
+            <div class="grid-item"><a href="https://www.pexels.com/search/nature/"><img src="pexels-eberhard-grossgasteiger-1366909.jpg" alt="Nature Image 3"></a></div>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <p>Check out our delicious food items:</p>
+        <ul>
+            <li><a href="https://www.pexels.com/search/food/"><img src="pexels-robin-stickel-70497.jpg" alt="Food Item 1"> Food Item 1</a></li>
+            <li><a href="https://www.foodiesfeed.com/"><img src="foodiesfeed.com_crispy-spicy-chicken-wings.jpg" alt="Food Item 2"> Food Item 2</a></li>
+            <li><a href="https://pixabay.com/images/search/food/"><img src="vegetables-1584999_1280.jpg" alt="Food Item 3"> Food Item 3</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Image Links. All rights reserved.</p>
+    </footer>
+</body>
+</html>
